@@ -35,6 +35,7 @@ final class MovieQuizViewController: UIViewController {
     
     @IBAction func clearResult(_ sender: UIButton) {
         countLabel.text = "0"
+        count = 0
         calculationHistory.text += "\n\(time()) значение сброшено"
     }
     
